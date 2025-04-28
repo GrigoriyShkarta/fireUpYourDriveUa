@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function StudentCase() {
 	return (
-		<div className='flex flex-col items-center justify-center min-h-screen p-4'>
+		<div className='flex flex-col items-center justify-center min-h-screen p-4 lg:container lg:h-[500px]'>
 			<h2 className='text-3xl text-white font-bold mb-4 text-center'>
 				🔥 Кейс учениці 🔥
 			</h2>

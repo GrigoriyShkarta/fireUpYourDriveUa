@@ -1,12 +1,12 @@
 export default function WhatIncludedSection() {
 	return (
-		<section className='py-16 px-6 w-full bg-[url("../assets/bg-container.jpg")] bg-no-repeat bg-cover text-white relative'>
-			<div className='absolute inset-0 bg-black/80 z-0' />
-			<div className='relative z-10'>
+		<section className='py-16 w-full bg-[url("../assets/bg-container.jpg")] bg-no-repeat bg-cover text-white relative'>
+			<div className='absolute inset-0 bg-black/60 z-0' />
+			<div className='relative z-10 container mx-auto px-6 max-w-[1024px]'>
 				<h2 className='text-3xl font-bold mb-8 text-center'>
 					Що входить до марафону?
 				</h2>
-				<ul className='max-w-4xl mx-auto space-y-6 text-lg'>
+				<ul className='mx-auto space-y-6 text-lg'>
 					<li>
 						🎤 Глибокий розбір техніки &quot;драйв&quot; — зрозумієш, як працює
 						ця екстрим-техніка, у чому її особливість та як правильно освоїти її

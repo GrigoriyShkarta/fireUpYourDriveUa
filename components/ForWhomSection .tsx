@@ -1,6 +1,6 @@
 export default function ForWhomSection() {
 	return (
-		<section className='py-16 px-6 max-w-5xl mx-auto w-full'>
+		<section className='py-16 px-6 max-w-5xl mx-auto w-full container mx-auto'>
 			<h2 className='text-3xl font-bold mb-8 text-center'>
 				Кому підійде марафон?
 			</h2>

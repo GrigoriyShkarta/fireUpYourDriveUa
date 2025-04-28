@@ -6,8 +6,8 @@ export default function PathSection() {
 			</h2>
 			<div className='grid md:grid-cols-2 gap-10 text-lg mb-[40px]'>
 				<div className='relative rounded-2xl overflow-hidden shadow-[0_0_0_2px_#ffb52c]'>
-					<div className='bg-[url("../assets/start.jpg")] bg-cover p-6 relative z-10'>
-						<div className='absolute inset-0 bg-black/70 z-0' />
+					<div className='bg-[url("../assets/start.jpg")] bg-cover bg-no-repeat p-6 relative z-10'>
+						<div className='absolute inset-0 bg-black/60 z-0' />
 						<div className='relative z-10 text-white'>
 							<h3 className='text-2xl font-semibold mb-4'>Точка А:</h3>
 							<ul className='space-y-4'>
@@ -35,8 +35,8 @@ export default function PathSection() {
 				</div>
 
 				<div className='relative rounded-2xl overflow-hidden shadow-[0_0_0_2px_#ffb52c]'>
-					<div className=' p-6 rounded-2xl relative bg-[url("../assets/end.jpg")] bg-cover'>
-						<div className='absolute inset-0 bg-black/70 z-0' />
+					<div className=' p-6 rounded-2xl relative bg-[url("../assets/end.jpg")] bg-cover bg-no-repeat h-full'>
+						<div className='absolute inset-0 bg-black/60 z-0' />
 						<div className='relative z-10'>
 							<h3 className='text-2xl font-semibold mb-4'>Точка Б:</h3>
 							<ul className='space-y-4'>

@@ -5,48 +5,52 @@ export default function Price() {
 
 			<div className='grid md:grid-cols-2 gap-8'>
 				{/* Базовый вариант */}
-				<div className='bg-gray p-8 rounded-lg shadow-md border border-gray-200'>
-					<h3 className='text-2xl font-semibold mb-4'>Базовий</h3>
-					<p className='text-4xl font-bold mb-4'>1500 грн</p>
-					<ul className='space-y-2'>
-						<li className='flex items-center'>
-							<svg
-								className='w-5 h-5 mr-2 text-gray-500'
-								fill='none'
-								stroke='currentColor'
-								viewBox='0 0 24 24'
-								xmlns='http://www.w3.org/2000/svg'
-							>
-								<path
-									strokeLinecap='round'
-									strokeLinejoin='round'
-									strokeWidth='2'
-									d='M5 13l4 4L19 7'
-								></path>
-							</svg>
-							Без зворотнього зв&apos;язку
-						</li>
-						<li className='flex items-center'>
-							<svg
-								className='w-5 h-5 mr-2 text-gray-500'
-								fill='none'
-								stroke='currentColor'
-								viewBox='0 0 24 24'
-								xmlns='http://www.w3.org/2000/svg'
-							>
-								<path
-									strokeLinecap='round'
-									strokeLinejoin='round'
-									strokeWidth='2'
-									d='M5 13l4 4L19 7'
-								></path>
-							</svg>
-							Без сертифікату
-						</li>
-					</ul>
-					<button className='mt-6 w-full bg-gray-100 hover:bg-gray-200 text-gray-800 font-bold py-2 px-4 rounded transition'>
-						<a href='https://t.me/yana_vocalcoach'>Обрати</a>
-					</button>
+				<div className='bg-gray p-8 rounded-lg shadow-md border border-gray-200 flex flex-col justify-between'>
+					<div>
+						<h3 className='text-2xl font-semibold mb-4'>Базовий</h3>
+						<p className='text-4xl font-bold mb-4'>1500 грн</p>
+						<ul className='space-y-2'>
+							<li className='flex items-center'>
+								<svg
+									className='w-5 h-5 mr-2 text-gray-500'
+									fill='none'
+									stroke='currentColor'
+									viewBox='0 0 24 24'
+									xmlns='http://www.w3.org/2000/svg'
+								>
+									<path
+										strokeLinecap='round'
+										strokeLinejoin='round'
+										strokeWidth='2'
+										d='M5 13l4 4L19 7'
+									></path>
+								</svg>
+								Без зворотнього зв&apos;язку
+							</li>
+							<li className='flex items-center'>
+								<svg
+									className='w-5 h-5 mr-2 text-gray-500'
+									fill='none'
+									stroke='currentColor'
+									viewBox='0 0 24 24'
+									xmlns='http://www.w3.org/2000/svg'
+								>
+									<path
+										strokeLinecap='round'
+										strokeLinejoin='round'
+										strokeWidth='2'
+										d='M5 13l4 4L19 7'
+									></path>
+								</svg>
+								Без сертифікату
+							</li>
+						</ul>
+					</div>
+					<a href='https://t.me/yana_vocalcoach'>
+						<button className='mt-6 w-full bg-gray-100 hover:bg-gray-200 text-gray-800 font-bold py-2 px-4 rounded transition cursor-pointer'>
+							<a href='https://t.me/yana_vocalcoach'>Обрати</a>
+						</button>
+					</a>
 				</div>
 
 				{/* Премиум вариант с "огненным" стилем */}
@@ -110,11 +114,11 @@ export default function Price() {
 							Сертифікат про проходження марафону
 						</li>
 					</ul>
-					<button className='mt-6 w-full bg-yellow-400 hover:bg-yellow-300 text-red-800 font-bold py-2 px-4 rounded transition shadow-lg hover:shadow-xl'>
-						<a href='https://t.me/yana_vocalcoach' className='w-full'>
+					<a href='https://t.me/yana_vocalcoach'>
+						<button className='mt-6 w-full bg-yellow-400 hover:bg-yellow-300 text-red-800 font-bold py-2 px-4 rounded transition shadow-lg hover:shadow-xl cursor-pointer'>
 							Обрати
-						</a>
-					</button>
+						</button>
+					</a>
 				</div>
 			</div>
 

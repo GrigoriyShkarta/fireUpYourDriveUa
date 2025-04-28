@@ -18,7 +18,7 @@ export default function Overview() {
 	}
 
 	return (
-		<section className='bg-[url("../assets/faq_fire.jpg")] bg-cover bg-center py-12'>
+		<section className='bg-[url("../assets/faq_fire.jpg")] bg-cover py-12 w-full'>
 			<div className='container mx-auto px-4'>
 				<h2 className='text-3xl font-bold mb-8 text-center'>ЗМІСТ</h2>
 				<div className='space-y-4'>
@@ -49,7 +49,7 @@ export default function Overview() {
 							<div
 								className={`transition-all duration-300 ease-in-out overflow-hidden ${
 									openIndex === index
-										? 'max-h-96 opacity-100'
+										? 'max-h-96 opacity-100 md:max-h-full'
 										: 'max-h-0 opacity-0'
 								}`}
 							>

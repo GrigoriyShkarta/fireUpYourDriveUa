@@ -3,8 +3,12 @@ import author from '@/assets/author.png'
 
 export default function AboutAuthor() {
 	return (
-		<>
-			<Image src={author} alt='YS Vocal Coach' className='mt-[48px]' />
+		<div className='container mx-auto pt-16 lg:flex justify-between items-center'>
+			<Image
+				src={author}
+				alt='YS Vocal Coach'
+				className='mx-auto lg:w-[400px] lg:h-[300px]'
+			/>
 
 			<div className='p-[1rem] flex flex-col gap-6'>
 				<p className='text-[18px]'>
@@ -26,6 +30,6 @@ export default function AboutAuthor() {
 					вокалу та розвинути їхні навички на найвищому рівні.
 				</p>
 			</div>
-		</>
+		</div>
 	)
 }

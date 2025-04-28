@@ -19,7 +19,7 @@ const Home: FC = () => {
 			<Head>
 				<title>Fire Up Your Drive — Вокальний Марафон</title>
 				<meta
-					name='description'
+					name='Fire Up Your Drive'
 					content='Освой драйв — потужну екстрим-техніку вокалу, яка зробить твій голос роковим, хрипким і впевненим!'
 				/>
 			</Head>

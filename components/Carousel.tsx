@@ -76,7 +76,7 @@ export default function Carousel() {
 	}
 
 	return (
-		<section className='py-12 w-full h-[500px]'>
+		<section className='py-12 w-full h-[500px] container mx-auto md:h-[700px] md:w-[700px]'>
 			<h2 className='text-3xl font-bold mb-8 text-center '>ВІДГУКИ</h2>
 			<div className='relative w-full h-full overflow-hidden'>
 				{/* Carousel Slides */}

@@ -12,7 +12,7 @@ export default function FAQ() {
 	}
 
 	return (
-		<section className='bg-[url("../assets/faq_fire.jpg")] bg-cover bg-center py-12'>
+		<section className='bg-[url("../assets/faq_fire.jpg")] bg-cover bg-center py-12 w-full'>
 			<div className='container mx-auto px-4'>
 				<h2 className='text-3xl font-bold mb-8 text-center'>ЧАСТІ ЗАПИТАННЯ</h2>
 				<div className='space-y-4'>
