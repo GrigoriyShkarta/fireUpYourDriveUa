@@ -8,7 +8,7 @@ export default function Price() {
 				<div className='bg-gray p-8 rounded-lg shadow-md border border-gray-200 flex flex-col justify-between'>
 					<div>
 						<h3 className='text-2xl font-semibold mb-4'>Базовий</h3>
-						<p className='text-4xl font-bold mb-4'>1500 грн</p>
+						<p className='text-4xl font-bold mb-4'>2000 грн</p>
 						<ul className='space-y-2'>
 							<li className='flex items-center'>
 								<svg
@@ -60,7 +60,7 @@ export default function Price() {
 						Рекомендовано
 					</div>
 					<h3 className='text-2xl font-semibold mb-4'>Преміум</h3>
-					<p className='text-4xl font-bold mb-4'>2200 грн</p>
+					<p className='text-4xl font-bold mb-4'>3000 грн</p>
 					<ul className='space-y-2'>
 						<li className='flex items-center'>
 							<svg
