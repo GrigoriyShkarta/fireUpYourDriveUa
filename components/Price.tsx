@@ -136,7 +136,7 @@ export default function Price() {
           ЧОРНА П&#39;ЯТНИЦЯ - Обмежена пропозиція!
         </div>
         <h2 className='text-4xl font-bold mb-4'>Акційні Ціни</h2>
-        <p className='text-gray-600'>Знижки діють лише до 28 листопада</p>
+        <p className='text-red-600'>Знижки діють лише до 28 листопада</p>
       </div>
       
       <div className='grid md:grid-cols-2 gap-8'>
@@ -212,7 +212,7 @@ export default function Price() {
               <svg className='w-5 h-5 mr-3 text-yellow-300 flex-shrink-0' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
                 <path strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' d='M5 13l4 4L19 7'></path>
               </svg>
-              З зворотнім зв&#39;язком протягом двух тижнів
+              Зі зворотнім зв&#39;язком протягом двух тижнів
             </li>
             <li className='flex items-center'>
               <svg className='w-5 h-5 mr-3 text-yellow-300 flex-shrink-0' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
@@ -238,7 +238,7 @@ export default function Price() {
       
       <p className='text-center mt-8 text-4xl text-yellow-300'>СТАРТ 1 ГРУДНЯ</p>
       
-      <p className='text-center mt-8 text-gray-600 font-semibold'>Доступ до матеріалів в каналі до 1 лютого 2026 року</p>
+      <p className='text-center mt-8 text-red-600 font-semibold'>Доступ до матеріалів в каналі до 1 лютого 2026 року</p>
     </div>
   )
 }
