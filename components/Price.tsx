@@ -139,9 +139,9 @@ export default function Price() {
         <p className='text-red-600'>Знижки діють лише до 28 листопада</p>
       </div>
       
-      <div className='grid md:grid-cols-2 gap-8'>
+      <div className="flex flex-col md:flex-row gap-8">
         {/* Базовый вариант с акционной ценой */}
-        <div className='p-8 rounded-2xl shadow-lg border-2 border-gray-100 flex flex-col justify-between relative'>
+        <div className='flex-1 p-8 rounded-2xl shadow-lg border-2 border-gray-100 flex flex-col justify-between relative'>
           {/* Акционный стикер */}
           <div className='absolute -top-3 -left-3 bg-green-500 text-white px-4 py-1 rounded-full text-sm font-bold'>
             -50%
@@ -181,7 +181,7 @@ export default function Price() {
         </div>
         
         {/* Премиум вариант с максимальной скидкой */}
-        <div className='relative p-8 rounded-2xl shadow-2xl bg-gradient-to-br from-orange-500 via-red-500 to-pink-600 text-white transform hover:scale-105 transition duration-300'>
+        <div className='flex-1 relative p-8 rounded-2xl shadow-2xl bg-gradient-to-br from-orange-500 via-red-500 to-pink-600 text-white transform hover:scale-105 transition duration-300'>
           {/* Верхний стикер "Топ предложение" */}
           <div className='absolute -top-3 left-1/2 transform -translate-x-1/2 bg-yellow-400 text-red-800 font-bold px-8 py-2 rounded-full text-sm animate-bounce whitespace-nowrap'>
             🔥 НАЙПОПУЛЯРНІШЕ
