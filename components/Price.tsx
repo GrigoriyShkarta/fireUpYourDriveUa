@@ -136,7 +136,7 @@ export default function Price() {
           ЧОРНА П&#39;ЯТНИЦЯ - Обмежена пропозиція!
         </div>
         <h2 className='text-4xl font-bold mb-4'>Акційні Ціни</h2>
-        <p className='text-red-600'>Знижки діють лише до 28 листопада</p>
+        <p className='text-red-600'>Знижки діють лише до 30 листопада</p>
       </div>
       
       <div className="flex flex-col md:flex-row gap-8">
